@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Pretty Girlfriend</title>
+    <style>
+        /* Basic page styling */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(to bottom, #ffedf0, #d0f0c0); /* dreamy garden gradient */
+            overflow: hidden;
+            font-family: 'Segoe Script', 'Brush Script MT', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ff80aa; /* soft pink text */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin: 20px;
+            color: #ff80aa;
+            text-shadow: 2px 2px 5px rgba(0,128,0,0.3);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 10px;
+            color: #ff6699;
+            text-shadow: 1px 1px 3px rgba(0,128,0,0.2);
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 12px 25px;
+            margin: 15px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            background-color: #ffb6c1;
+            color: #fff;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Cherry blossom petals animation */
+        .petal {
+            position: absolute;
+            top: -10px;
+            width: 15px;
+            height: 15px;
+            background: pink;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+
+        /* Love letter page */
+        .letter-container {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #ffedf0, #d0f0c0);
+            overflow: auto;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .letter {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background: #fffbe0;
+            border: 2px solid #ffcccc;
+            border-radius: 25px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+            font-family: 'Segoe Script', cursive;
+            font-size: 1.2em;
+            color: #cc3366;
+            line-height: 1.8;
+        }
+
+        .letter h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #ff3366;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .letter img {
+            max-width: 100px;
+            margin: 10px;
+            border-radius: 12px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cherry blossom petals -->
+    <script>
+        for(let i = 0; i < 50; i++){
+            let petal = document.createElement("div");
+            petal.classList.add("petal");
+            petal.style.left = Math.random() * window.innerWidth + "px";
+            petal.style.animationDuration = 5 + Math.random() * 5 + "s";
+            petal.style.width = 10 + Math.random()*10 + "px";
+            petal.style.height = 10 + Math.random()*10 + "px";
+            document.body.appendChild(petal);
+        }
+    </script>
+
+    <!-- Main page content -->
+    <h1>For my pretty girlfriend, the one and only girl in my life — Mrs. PUJANA DOBAL JEU, urf Puju Don.</h1>
+    <h2>Would you be my Valentine?</h2>
+
+    <div class="buttons">
+        <button id="yesBtn">Yes 💗</button>
+        <button id="noBtn">No 😢</button>
+    </div>
+
+    <!-- Love letter page -->
+    <div class="letter-container" id="letterPage">
+        <div class="letter">
+            <h1>HAPPY VALENTINE’S DAY, MERI PYARI 💗</h1>
+            <p>
+            Dear Pujana,<br><br>
+            Once again, Happy Valentine’s Day, my love — meri pukuli, meri budi jeu. 🌷<br>
+            You carry a tiny spark of anger sometimes, but when that spark turns into a storm, it can lift Sagarmatha itself. Yet even then, you remain the most beautiful soul — pure, rare, and flawless, without a single doubt.<br><br>
+            And me? I know I am stubborn, foolish, and far from perfect. But for you, my love, I have never held back even a single drop of effort. I speak too much when emotions overflow, but I swear on my heart — whether I laugh or cry, every word I say is soaked in love for you.<br><br>
+            I love you… endlessly, hopelessly, madly. 💗💗💗💗💗💗💗💗💗<br><br>
+            No matter how flawed my habits may be, I am learning, changing, becoming better — for you, and for us. Because now, my life has only one destination: you.<br>
+            I want to marry you, build a small world together, fill it with laughter, dreams, and tiny footsteps of our future children. You and me, working side by side, holding hands through every storm, making a warm home out of love and patience.<br><br>
+            And listen to me, my brave girl — do not burden your heart with too much pressure. I see your struggle, your late nights, your silent tears, and your unstoppable effort. And I swear, I am so damn proud of you. You are stronger than you realize, braver than you believe, and brighter than you know.<br><br>
+            Your dreams are not in vain. Every step you take is building the life you deserve. One day, all your pain will bloom into success, and I will be standing beside you, applauding the loudest.<br><br>
+            Forget the noise of the world. You are more than enough.<br>
+            You are my peace, my chaos, my dream, my home.<br>
+            You are my entire universe wrapped in a single heartbeat.<br><br>
+            And till my last breath fades into silence, I promise —<br>
+            I will love you. Always. Only you. Forever.<br><br>
+            <strong>I LOVE YOU INFINITELY. 💖🌸</strong>
+            </p>
+            <p>
+                <!-- Example images inside letter -->
+                <img src="https://i.postimg.cc/8z2b9yRf/cute1.jpg" alt="cute1">
+                <img src="https://i.postimg.cc/6qmn9z9v/cute2.jpg" alt="cute2">
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const noBtn = document.getElementById('noBtn');
+        const yesBtn = document.getElementById('yesBtn');
+        const letterPage = document.getElementById('letterPage');
+
+        // Move No button randomly on hover
+        noBtn.addEventListener('mouseover', function() {
+            let x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
+            let y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
+            noBtn.style.position = 'absolute';
+            noBtn.style.left = x + 'px';
+            noBtn.style.top = y + 'px';
+        });
+
+        // Yes button click to open love letter
+        yesBtn.addEventListener('click', function() {
+            document.body.style.overflow = 'auto';
+            letterPage.style.display = 'block';
+            document.querySelector('h1').style.display = 'none';
+            document.querySelector('h2').style.display = 'none';
+            document.querySelector('.buttons').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+
